@@ -1,0 +1,97 @@
+[
+ {
+ "name": "Austria",
+ "currency": "Euro",
+ "code": "EUR"
+ },
+ {
+ "name": "Belgium",
+ "currency": "Euro",
+ "code": "EUR"
+ },
+ {
+ "name": "Cyprus",
+ "currency": "Euro",
+ "code": "EUR"
+ },
+ {
+ "name": "Estonia",
+ "currency": "Euro",
+ "code": "EUR"
+ },
+ {
+ "name": "Finland",
+ "currency": "Euro",
+ "code": "EUR"
+ },
+ {
+ "name": "France",
+ "currency": "Euro",
+ "code": "EUR"
+ },
+ {
+ "name": "Germany",
+ "currency": "Euro",
+ "code": "EUR"
+ },
+ {
+ "name": "Greece",
+ "currency": "Euro",
+ "code": "EUR"
+ },
+ {
+ "name": "Ireland",
+ "currency": "Euro",
+ "code": "EUR"
+ },
+ {
+ "name": "Italy",
+ "currency": "Euro",
+ "code": "EUR"
+ },
+ {
+ "name": "Latvia",
+ "currency": "Euro",
+ "code": "EUR"
+ },
+ {
+ "name": "Lithuania",
+ "currency": "Euro",
+ "code": "EUR"
+ },
+ {
+ "name": "Luxembourg",
+ "currency": "Euro",
+ "code": "EUR"
+ },
+ {
+ "name": "Malta",
+ "currency": "Euro",
+ "code": "EUR"
+ },
+ {
+ "name": "Netherlands",
+ "currency": "Euro",
+ "code": "EUR"
+ },
+ {
+ "name": "Portugal",
+ "currency": "Euro",
+ "code": "EUR"
+ },
+ {
+ "name": "Slovakia",
+ "currency": "Euro",
+ "code": "EUR"
+ },
+ {
+ "name": "Slovenia",
+ "currency": "Euro",
+ "code": "EUR"
+ },
+ {
+ "name": "Spain",
+ "currency": "Euro",
+ "code": "EUR"
+ }
+]

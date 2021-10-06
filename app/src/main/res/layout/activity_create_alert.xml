@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Activity.CreateAlertController"
+    android:orientation="vertical"
+    android:background="@color/colorDarkGrey">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+            <Button
+                android:onClick="handleAlertDismiss"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/left_arrow"
+                android:layout_gravity="left"
+                tools:ignore="RtlHardcoded" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/noto_sans_bold"
+                android:text="@string/create_alert"
+                android:textColor="@color/colorWhite"
+                android:textSize="19sp" />
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        android:id="@+id/handleAlertKeyboard"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:hint="@string/alert_name"
+            android:maxLength="20"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@color/colorWhite"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:textColorHint="@color/colorWhite"
+            android:id="@+id/txtAlertName"
+            android:layout_marginTop="35dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/button_style_black"
+            android:importantForAutofill="no"
+            tools:targetApi="o"
+            android:inputType="textCapSentences" />
+
+        <LinearLayout
+            android:layout_below="@id/txtAlertName"
+            android:id="@+id/alert_first"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/button_style_black"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:id="@+id/handleAlertFirst"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                tools:ignore="UseCompoundDrawables,UselessParent">
+                <ImageView
+                    android:id="@+id/imgFirstFlag"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="10dp"
+                    android:contentDescription="@string/main_currency" />
+                <TextView
+                    android:id="@+id/txtFirstCode"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/noto_sans"
+                    android:gravity="center_vertical"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+            <ImageView
+                android:id="@+id/imgFirstSymbol"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:padding="5dp"
+                android:contentDescription="@string/main_currency" />
+            <EditText
+                android:id="@+id/txtFirstValue"
+                android:gravity="center|start"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textSize="17sp"
+                android:textColor="@color/colorWhite"
+                android:fontFamily="@font/noto_sans"
+                android:padding="10dp"
+                android:background="@drawable/textbox_style"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="numberDecimal"
+                android:layout_marginEnd="10dp"
+                tools:ignore="Autofill,LabelFor" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_below="@id/alert_first"
+            android:id="@+id/alert_second"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/button_style_black"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:id="@+id/handleAlertSecond"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                tools:ignore="UseCompoundDrawables,UselessParent">
+                <ImageView
+                    android:id="@+id/imgSecondFlag"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="10dp"
+                    android:contentDescription="@string/main_currency" />
+                <TextView
+                    android:id="@+id/txtSecondCode"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/noto_sans"
+                    android:gravity="center_vertical"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+            <ImageView
+                android:id="@+id/imgSecondSymbol"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:padding="5dp"
+                android:contentDescription="@string/main_currency" />
+            <EditText
+                android:id="@+id/txtSecondValue"
+                android:gravity="center|start"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textSize="17sp"
+                android:textColor="@color/colorWhite"
+                android:fontFamily="@font/noto_sans"
+                android:padding="10dp"
+                android:background="@drawable/textbox_style"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="numberDecimal"
+                android:layout_marginEnd="10dp"
+                tools:ignore="Autofill,LabelFor" />
+        </LinearLayout>
+
+        <Button
+            android:layout_below="@id/alert_second"
+            android:onClick="handleConfirm"
+            android:text="@string/confirm"
+            android:textAllCaps="false"
+            android:textColor="@color/colorWhite"
+            android:fontFamily="@font/noto_sans"
+            android:textSize="18sp"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/button_style_red">
+        </Button>
+    </RelativeLayout>
+
+</LinearLayout>

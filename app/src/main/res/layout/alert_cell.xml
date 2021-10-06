@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        app:cardBackgroundColor="@color/colorDarkGrey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:orientation="horizontal"
+            android:background="@drawable/button_style_black"
+            tools:ignore="UseCompoundDrawables">
+
+            <TextView
+                android:id="@+id/txtAlertFirstValue"
+                android:textColor="@color/colorWhite"
+                android:textSize="17sp"
+                android:fontFamily="@font/noto_sans"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="10dp"/>
+            <TextView
+                android:id="@+id/txtAlertFirstCode"
+                android:textColor="@color/colorWhite"
+                android:textSize="17sp"
+                android:fontFamily="@font/noto_sans"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <ImageView
+                android:id="@+id/imgAlertFirstFlag"
+                android:padding="3dp"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:contentDescription="@string/main_currency" />
+            <ImageView
+                android:padding="3dp"
+                android:background="@drawable/equal"
+                android:layout_width="15dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:contentDescription="@string/main_currency" />
+            <TextView
+                android:id="@+id/txtAlertSecondValue"
+                android:textColor="@color/colorWhite"
+                android:textSize="17sp"
+                android:fontFamily="@font/noto_sans"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"/>
+            <TextView
+                android:id="@+id/txtAlertSecondCode"
+                android:textColor="@color/colorWhite"
+                android:textSize="17sp"
+                android:fontFamily="@font/noto_sans"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <ImageView
+                android:id="@+id/imgAlertSecondFlag"
+                android:padding="3dp"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:contentDescription="@string/main_currency" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

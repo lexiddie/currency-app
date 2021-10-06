@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color currency="colorPrimary">#3F51B5</color>-->
+    <!--<color currency="colorPrimaryDark">#303F9F</color>-->
+    <color name="colorPrimary">#800020</color>
+    <color name="colorPrimaryDark">#800020</color>
+    <color name="mainColor">#800020</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorDarkGrey">#4F5C65</color>
+    <color name="colorGrey">#CACACA</color>
+    <color name="colorGreen">#1BF205</color>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.dlex">
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity
+            android:name=".Activity.MainController"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme.NoActionBar"
+            tools:ignore="InnerclassSeparator">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity.PrivacyController"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name=".Activity.HelpController"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name=".Activity.AboutController"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name=".Activity.AdsController"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name=".Activity.CurrencyController"
+            tools:ignore="InnerclassSeparator" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".Activity.HistoryCalController"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name=".Activity.CreateAlertController"
+            tools:ignore="InnerclassSeparator" />
+
+        <service
+            android:name=".Activity.NotificationService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".Activity.DetailController"></activity>
+    </application>
+
+</manifest>

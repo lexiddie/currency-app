@@ -1,0 +1,167 @@
+[
+ {
+ "name": "United Kingdom",
+ "currency": "British Pound",
+ "code": "GBP"
+ },
+ {
+ "name": "Euro",
+ "currency": "Euro",
+ "code": "EUR"
+ },
+ {
+ "name": "United States",
+ "currency": "US Dollar",
+ "code": "USD"
+ },
+ {
+ "name": "Canada",
+ "currency": "Canadian Dollar",
+ "code": "CAD"
+ },
+ {
+ "name": "Singapore",
+ "currency": "Singapore Dollar",
+ "code": "SGD"
+ },
+ {
+ "name": "Australia",
+ "currency": "Australian Dollar",
+ "code": "AUD"
+ },
+ {
+ "name": "China",
+ "currency": "Chinese Yuan",
+ "code": "CNY"
+ },
+ {
+ "name": "Hong Kong",
+ "currency": "Hong Kong Dollar",
+ "code": "HKD"
+ },
+ {
+ "name": "Thailand",
+ "currency": "Thai Baht",
+ "code": "THB"
+ },
+ {
+ "name": "Japan",
+ "currency": "Japanese Yen",
+ "code": "JPY"
+ },
+ {
+ "name": "South Korea",
+ "currency": "South Korea Won",
+ "code": "KRW"
+ },
+ {
+ "name": "Malaysia",
+ "currency": "Malaysian Ringgit",
+ "code": "MYR"
+ },
+ {
+ "name": "Vietnam",
+ "currency": "Vietnamese Dong",
+ "code": "VND"
+ },
+ {
+ "name": "Cambodia",
+ "currency": "Cambodian Riel",
+ "code": "KHR"
+ },
+ {
+ "name": "Philippine",
+ "currency": "Philippine Piso",
+ "code": "PHP"
+ },
+ {
+ "name": "India",
+ "currency": "Indian Rupee",
+ "code": "INR"
+ },
+ {
+ "name": "Switzerland",
+ "currency": "Swiss Franc",
+ "code": "CHF"
+ },
+ {
+ "name": "Brunei",
+ "currency": "Brunei Dollar",
+ "code": "BND"
+ },
+ {
+ "name": "Denmark",
+ "currency": "Danish Krone",
+ "code": "DKK"
+ },
+ {
+ "name": "Norway",
+ "currency": "Norwegian Krone",
+ "code": "NOK"
+ },
+ {
+ "name": "New Zealand",
+ "currency": "New Zealand Dollar",
+ "code": "NZD"
+ },
+ {
+ "name": "Saudi Arabia",
+ "currency": "Saudi Riyal",
+ "code": "SAR"
+ },
+ {
+ "name": "Sweden",
+ "currency": "Swedish Krona",
+ "code": "SEK"
+ },
+ {
+ "name": "Taiwan",
+ "currency": "New Taiwan Dollar",
+ "code": "TWD"
+ },
+ {
+ "name": "South Africa",
+ "currency": "South African Rand",
+ "code": "ZAR"
+ },
+ {
+ "name": "United Arab Emirates",
+ "currency": "United Arab Emirates Dirham",
+ "code": "AED"
+ },
+ {
+ "name": "Indonesia",
+ "currency": "Indonesian Rupiah",
+ "code": "IDR"
+ },
+ {
+ "name": "Bangladesh",
+ "currency": "Bangladeshi Taka",
+ "code": "BDT"
+ },
+ {
+ "name": "Brazil",
+ "currency": "Brazilian Real",
+ "code": "BRL"
+ },
+ {
+ "name": "Mexico",
+ "currency": "Mexican Peso",
+ "code": "MXN"
+ },
+ {
+ "name": "Argentina",
+ "currency": "Argentine Peso",
+ "code": "ARS"
+ },
+ {
+ "name": "Myanmar",
+ "currency": "Burmese Kyat",
+ "code": "MMK"
+ },
+ {
+ "name": "Laos",
+ "currency": "Lao Kip",
+ "code": "LAK"
+ }
+]
